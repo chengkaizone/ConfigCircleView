@@ -2,7 +2,7 @@
 
 > 旋转动画的封装
 
-![demo.gif](333.png)
+![demo.gif](http://images.cnitblog.com/blog2015/607542/201505/132136145644968.gif)
 
 
 * 此旋转动画机具扩展性
