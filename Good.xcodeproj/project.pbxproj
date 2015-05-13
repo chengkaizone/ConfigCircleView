@@ -41,7 +41,6 @@
 		10A025D31B01A9CD006BE08F /* TransformationMatrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 10A025BD1B01A9CD006BE08F /* TransformationMatrix.cpp */; };
 		10A025DB1B01B1BF006BE08F /* easing.c in Sources */ = {isa = PBXBuildFile; fileRef = 10A025D71B01B1BF006BE08F /* easing.c */; };
 		10A025DC1B01B1BF006BE08F /* YXEasing.m in Sources */ = {isa = PBXBuildFile; fileRef = 10A025DA1B01B1BF006BE08F /* YXEasing.m */; };
-		10A025DF1B01C7DD006BE08F /* AnimationsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 10A025DE1B01C7DD006BE08F /* AnimationsView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -136,8 +135,6 @@
 		10A025D81B01B1BF006BE08F /* easing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = easing.h; sourceTree = "<group>"; };
 		10A025D91B01B1BF006BE08F /* YXEasing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXEasing.h; sourceTree = "<group>"; };
 		10A025DA1B01B1BF006BE08F /* YXEasing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXEasing.m; sourceTree = "<group>"; };
-		10A025DD1B01C7DD006BE08F /* AnimationsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimationsView.h; sourceTree = "<group>"; };
-		10A025DE1B01C7DD006BE08F /* AnimationsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimationsView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -211,8 +208,6 @@
 				1072879B1B035367007C1A07 /* RotateAnimationView */,
 				107287971B0342E5007C1A07 /* sec@2x.png */,
 				107287991B0343E7007C1A07 /* min@2x.png */,
-				10A025DD1B01C7DD006BE08F /* AnimationsView.h */,
-				10A025DE1B01C7DD006BE08F /* AnimationsView.m */,
 				10A025D71B01B1BF006BE08F /* easing.c */,
 				10A025D81B01B1BF006BE08F /* easing.h */,
 				10A025D91B01B1BF006BE08F /* YXEasing.h */,
@@ -435,7 +430,6 @@
 				10A025C41B01A9CD006BE08F /* POPAnimationEvent.mm in Sources */,
 				107287AB1B035367007C1A07 /* PopRotateType.m in Sources */,
 				10A025C21B01A9CD006BE08F /* POPAnimatableProperty.mm in Sources */,
-				10A025DF1B01C7DD006BE08F /* AnimationsView.m in Sources */,
 				10A025C81B01A9CD006BE08F /* POPAnimator.mm in Sources */,
 				107287AA1B035367007C1A07 /* NormalRotateType.m in Sources */,
 				10A025DC1B01B1BF006BE08F /* YXEasing.m in Sources */,
