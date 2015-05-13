@@ -1,14 +1,14 @@
 //
-//  CircleAnimationTypes.m
+//  RotateAnimationTypes.m
 //  Good
 //
 //  Created by YouXianMing on 15/5/12.
 //  Copyright (c) 2015年 YouXianMing. All rights reserved.
 //
 
-#import "CircleAnimationTypes.h"
+#import "RotateAnimationTypes.h"
 
-@implementation CircleAnimationTypes
+@implementation RotateAnimationTypes
 
 
 - (void)startAnimation {

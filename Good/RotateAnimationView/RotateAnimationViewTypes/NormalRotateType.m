@@ -1,19 +1,19 @@
 //
-//  NormalCircleType.m
+//  NormalRotateType.m
 //  Good
 //
 //  Created by YouXianMing on 15/5/12.
 //  Copyright (c) 2015年 YouXianMing. All rights reserved.
 //
 
-#import "NormalCircleType.h"
+#import "NormalRotateType.h"
 
-@implementation NormalCircleType
+@implementation NormalRotateType
 
 - (void)startAnimation {
     
     // 获取view
-    ConfigCircleView *configView = self.targetObject;
+    RotateAnimationView *configView = self.targetObject;
     
     // 设置动画
     CABasicAnimation *circle     = [CABasicAnimation animation];

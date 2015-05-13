@@ -9,6 +9,11 @@
 /* Begin PBXBuildFile section */
 		107287981B0342E5007C1A07 /* sec@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 107287971B0342E5007C1A07 /* sec@2x.png */; };
 		1072879A1B0343E7007C1A07 /* min@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 107287991B0343E7007C1A07 /* min@2x.png */; };
+		107287A71B035367007C1A07 /* RotateAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1072879D1B035367007C1A07 /* RotateAnimationView.m */; };
+		107287A81B035367007C1A07 /* RotateAnimationTypes.m in Sources */ = {isa = PBXBuildFile; fileRef = 107287A01B035367007C1A07 /* RotateAnimationTypes.m */; };
+		107287A91B035367007C1A07 /* EasingRotateType.m in Sources */ = {isa = PBXBuildFile; fileRef = 107287A21B035367007C1A07 /* EasingRotateType.m */; };
+		107287AA1B035367007C1A07 /* NormalRotateType.m in Sources */ = {isa = PBXBuildFile; fileRef = 107287A41B035367007C1A07 /* NormalRotateType.m */; };
+		107287AB1B035367007C1A07 /* PopRotateType.m in Sources */ = {isa = PBXBuildFile; fileRef = 107287A61B035367007C1A07 /* PopRotateType.m */; };
 		10A025611B018741006BE08F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 10A025601B018741006BE08F /* main.m */; };
 		10A025641B018741006BE08F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 10A025631B018741006BE08F /* AppDelegate.m */; };
 		10A025671B018741006BE08F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10A025661B018741006BE08F /* ViewController.m */; };
@@ -37,11 +42,6 @@
 		10A025DB1B01B1BF006BE08F /* easing.c in Sources */ = {isa = PBXBuildFile; fileRef = 10A025D71B01B1BF006BE08F /* easing.c */; };
 		10A025DC1B01B1BF006BE08F /* YXEasing.m in Sources */ = {isa = PBXBuildFile; fileRef = 10A025DA1B01B1BF006BE08F /* YXEasing.m */; };
 		10A025DF1B01C7DD006BE08F /* AnimationsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 10A025DE1B01C7DD006BE08F /* AnimationsView.m */; };
-		10EC51A81B01E48D000054C8 /* CircleAnimationTypes.m in Sources */ = {isa = PBXBuildFile; fileRef = 10EC519F1B01E48D000054C8 /* CircleAnimationTypes.m */; };
-		10EC51A91B01E48D000054C8 /* EasingCircleType.m in Sources */ = {isa = PBXBuildFile; fileRef = 10EC51A11B01E48D000054C8 /* EasingCircleType.m */; };
-		10EC51AA1B01E48D000054C8 /* NormalCircleType.m in Sources */ = {isa = PBXBuildFile; fileRef = 10EC51A31B01E48D000054C8 /* NormalCircleType.m */; };
-		10EC51AB1B01E48D000054C8 /* PopCircleType.m in Sources */ = {isa = PBXBuildFile; fileRef = 10EC51A51B01E48D000054C8 /* PopCircleType.m */; };
-		10EC51AC1B01E48D000054C8 /* ConfigCircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 10EC51A71B01E48D000054C8 /* ConfigCircleView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +57,16 @@
 /* Begin PBXFileReference section */
 		107287971B0342E5007C1A07 /* sec@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sec@2x.png"; sourceTree = "<group>"; };
 		107287991B0343E7007C1A07 /* min@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "min@2x.png"; sourceTree = "<group>"; };
+		1072879C1B035367007C1A07 /* RotateAnimationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RotateAnimationView.h; sourceTree = "<group>"; };
+		1072879D1B035367007C1A07 /* RotateAnimationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RotateAnimationView.m; sourceTree = "<group>"; };
+		1072879F1B035367007C1A07 /* RotateAnimationTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RotateAnimationTypes.h; sourceTree = "<group>"; };
+		107287A01B035367007C1A07 /* RotateAnimationTypes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RotateAnimationTypes.m; sourceTree = "<group>"; };
+		107287A11B035367007C1A07 /* EasingRotateType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EasingRotateType.h; sourceTree = "<group>"; };
+		107287A21B035367007C1A07 /* EasingRotateType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EasingRotateType.m; sourceTree = "<group>"; };
+		107287A31B035367007C1A07 /* NormalRotateType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NormalRotateType.h; sourceTree = "<group>"; };
+		107287A41B035367007C1A07 /* NormalRotateType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NormalRotateType.m; sourceTree = "<group>"; };
+		107287A51B035367007C1A07 /* PopRotateType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopRotateType.h; sourceTree = "<group>"; };
+		107287A61B035367007C1A07 /* PopRotateType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopRotateType.m; sourceTree = "<group>"; };
 		10A0255B1B018741006BE08F /* Good.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Good.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		10A0255F1B018741006BE08F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		10A025601B018741006BE08F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -128,16 +138,6 @@
 		10A025DA1B01B1BF006BE08F /* YXEasing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXEasing.m; sourceTree = "<group>"; };
 		10A025DD1B01C7DD006BE08F /* AnimationsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimationsView.h; sourceTree = "<group>"; };
 		10A025DE1B01C7DD006BE08F /* AnimationsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimationsView.m; sourceTree = "<group>"; };
-		10EC519E1B01E48D000054C8 /* CircleAnimationTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleAnimationTypes.h; sourceTree = "<group>"; };
-		10EC519F1B01E48D000054C8 /* CircleAnimationTypes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleAnimationTypes.m; sourceTree = "<group>"; };
-		10EC51A01B01E48D000054C8 /* EasingCircleType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EasingCircleType.h; sourceTree = "<group>"; };
-		10EC51A11B01E48D000054C8 /* EasingCircleType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EasingCircleType.m; sourceTree = "<group>"; };
-		10EC51A21B01E48D000054C8 /* NormalCircleType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NormalCircleType.h; sourceTree = "<group>"; };
-		10EC51A31B01E48D000054C8 /* NormalCircleType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NormalCircleType.m; sourceTree = "<group>"; };
-		10EC51A41B01E48D000054C8 /* PopCircleType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopCircleType.h; sourceTree = "<group>"; };
-		10EC51A51B01E48D000054C8 /* PopCircleType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopCircleType.m; sourceTree = "<group>"; };
-		10EC51A61B01E48D000054C8 /* ConfigCircleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConfigCircleView.h; sourceTree = "<group>"; };
-		10EC51A71B01E48D000054C8 /* ConfigCircleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConfigCircleView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,6 +158,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1072879B1B035367007C1A07 /* RotateAnimationView */ = {
+			isa = PBXGroup;
+			children = (
+				1072879C1B035367007C1A07 /* RotateAnimationView.h */,
+				1072879D1B035367007C1A07 /* RotateAnimationView.m */,
+				1072879E1B035367007C1A07 /* RotateAnimationViewTypes */,
+			);
+			path = RotateAnimationView;
+			sourceTree = "<group>";
+		};
+		1072879E1B035367007C1A07 /* RotateAnimationViewTypes */ = {
+			isa = PBXGroup;
+			children = (
+				1072879F1B035367007C1A07 /* RotateAnimationTypes.h */,
+				107287A01B035367007C1A07 /* RotateAnimationTypes.m */,
+				107287A11B035367007C1A07 /* EasingRotateType.h */,
+				107287A21B035367007C1A07 /* EasingRotateType.m */,
+				107287A31B035367007C1A07 /* NormalRotateType.h */,
+				107287A41B035367007C1A07 /* NormalRotateType.m */,
+				107287A51B035367007C1A07 /* PopRotateType.h */,
+				107287A61B035367007C1A07 /* PopRotateType.m */,
+			);
+			path = RotateAnimationViewTypes;
+			sourceTree = "<group>";
+		};
 		10A025521B018741006BE08F = {
 			isa = PBXGroup;
 			children = (
@@ -183,9 +208,9 @@
 				10A025631B018741006BE08F /* AppDelegate.m */,
 				10A025651B018741006BE08F /* ViewController.h */,
 				10A025661B018741006BE08F /* ViewController.m */,
+				1072879B1B035367007C1A07 /* RotateAnimationView */,
 				107287971B0342E5007C1A07 /* sec@2x.png */,
 				107287991B0343E7007C1A07 /* min@2x.png */,
-				10EC519C1B01E48D000054C8 /* ConfigCircleView */,
 				10A025DD1B01C7DD006BE08F /* AnimationsView.h */,
 				10A025DE1B01C7DD006BE08F /* AnimationsView.m */,
 				10A025D71B01B1BF006BE08F /* easing.c */,
@@ -292,31 +317,6 @@
 				10A025BF1B01A9CD006BE08F /* UnitBezier.h */,
 			);
 			path = WebCore;
-			sourceTree = "<group>";
-		};
-		10EC519C1B01E48D000054C8 /* ConfigCircleView */ = {
-			isa = PBXGroup;
-			children = (
-				10EC519D1B01E48D000054C8 /* CircleAnimationTypes */,
-				10EC51A61B01E48D000054C8 /* ConfigCircleView.h */,
-				10EC51A71B01E48D000054C8 /* ConfigCircleView.m */,
-			);
-			path = ConfigCircleView;
-			sourceTree = "<group>";
-		};
-		10EC519D1B01E48D000054C8 /* CircleAnimationTypes */ = {
-			isa = PBXGroup;
-			children = (
-				10EC519E1B01E48D000054C8 /* CircleAnimationTypes.h */,
-				10EC519F1B01E48D000054C8 /* CircleAnimationTypes.m */,
-				10EC51A01B01E48D000054C8 /* EasingCircleType.h */,
-				10EC51A11B01E48D000054C8 /* EasingCircleType.m */,
-				10EC51A21B01E48D000054C8 /* NormalCircleType.h */,
-				10EC51A31B01E48D000054C8 /* NormalCircleType.m */,
-				10EC51A41B01E48D000054C8 /* PopCircleType.h */,
-				10EC51A51B01E48D000054C8 /* PopCircleType.m */,
-			);
-			path = CircleAnimationTypes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -428,18 +428,16 @@
 				10A025C31B01A9CD006BE08F /* POPAnimation.mm in Sources */,
 				10A025C71B01A9CD006BE08F /* POPAnimationTracer.mm in Sources */,
 				10A025DB1B01B1BF006BE08F /* easing.c in Sources */,
-				10EC51AC1B01E48D000054C8 /* ConfigCircleView.m in Sources */,
 				10A025641B018741006BE08F /* AppDelegate.m in Sources */,
-				10EC51A81B01E48D000054C8 /* CircleAnimationTypes.m in Sources */,
 				10A025CD1B01A9CD006BE08F /* POPGeometry.mm in Sources */,
 				10A025D31B01A9CD006BE08F /* TransformationMatrix.cpp in Sources */,
 				10A025C51B01A9CD006BE08F /* POPAnimationExtras.mm in Sources */,
 				10A025C41B01A9CD006BE08F /* POPAnimationEvent.mm in Sources */,
+				107287AB1B035367007C1A07 /* PopRotateType.m in Sources */,
 				10A025C21B01A9CD006BE08F /* POPAnimatableProperty.mm in Sources */,
-				10EC51AB1B01E48D000054C8 /* PopCircleType.m in Sources */,
 				10A025DF1B01C7DD006BE08F /* AnimationsView.m in Sources */,
 				10A025C81B01A9CD006BE08F /* POPAnimator.mm in Sources */,
-				10EC51AA1B01E48D000054C8 /* NormalCircleType.m in Sources */,
+				107287AA1B035367007C1A07 /* NormalRotateType.m in Sources */,
 				10A025DC1B01B1BF006BE08F /* YXEasing.m in Sources */,
 				10A025CC1B01A9CD006BE08F /* POPDecayAnimation.mm in Sources */,
 				10A025D11B01A9CD006BE08F /* POPSpringAnimation.mm in Sources */,
@@ -448,8 +446,10 @@
 				10A025CE1B01A9CD006BE08F /* POPLayerExtras.mm in Sources */,
 				10A025611B018741006BE08F /* main.m in Sources */,
 				10A025CA1B01A9CD006BE08F /* POPCGUtils.mm in Sources */,
+				107287A71B035367007C1A07 /* RotateAnimationView.m in Sources */,
 				10A025CF1B01A9CD006BE08F /* POPMath.mm in Sources */,
-				10EC51A91B01E48D000054C8 /* EasingCircleType.m in Sources */,
+				107287A91B035367007C1A07 /* EasingRotateType.m in Sources */,
+				107287A81B035367007C1A07 /* RotateAnimationTypes.m in Sources */,
 				10A025CB1B01A9CD006BE08F /* POPCustomAnimation.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

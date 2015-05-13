@@ -1,20 +1,20 @@
 //
-//  PopCircleType.m
+//  PopRotateType.m
 //  Good
 //
 //  Created by YouXianMing on 15/5/12.
 //  Copyright (c) 2015年 YouXianMing. All rights reserved.
 //
 
-#import "PopCircleType.h"
+#import "PopRotateType.h"
 #import "POP.h"
 
-@implementation PopCircleType
+@implementation PopRotateType
 
 - (void)startAnimation {
     
     // 获取view
-    ConfigCircleView *configView = self.targetObject;
+    RotateAnimationView *configView = self.targetObject;
     
     // 设置动画
     POPSpringAnimation *circle = [POPSpringAnimation animationWithPropertyNamed:kPOPLayerRotation];

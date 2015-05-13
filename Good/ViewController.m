@@ -7,20 +7,20 @@
 //
 
 #import "ViewController.h"
-#import "ConfigCircleView.h"
+#import "RotateAnimationView.h"
 
 #define   ONE_SEC  (M_PI * 2 / 60.f)
 #define   ONE_MIN  (M_PI * 2 / 3600.f)
 
 @interface ViewController ()
 
-@property (nonatomic, strong)  NSTimer           *timer;
+@property (nonatomic, strong)  NSTimer              *timer;
 
-@property (nonatomic, strong)  ConfigCircleView  *secondView;
-@property (nonatomic, strong)  ConfigCircleView  *minuteView;
+@property (nonatomic, strong)  RotateAnimationView  *secondView;
+@property (nonatomic, strong)  RotateAnimationView  *minuteView;
 
-@property (nonatomic)          CGFloat            secondCount;
-@property (nonatomic)          CGFloat            minuteCount;
+@property (nonatomic)          CGFloat               secondCount;
+@property (nonatomic)          CGFloat               minuteCount;
 
 @end
 
@@ -33,7 +33,7 @@
     {
         // 分钟
         _minuteCount                     = ONE_MIN;
-        self.minuteView                  = [[ConfigCircleView alloc] initWithFrame:CGRectMake(0, 0, 200, 200)];
+        self.minuteView                  = [[RotateAnimationView alloc] initWithFrame:CGRectMake(0, 0, 200, 200)];
         self.minuteView.center           = self.view.center;
         self.minuteView.duration         = 0.75f;
         self.minuteView.fromCircleRadian = 0.f;
@@ -51,7 +51,7 @@
     {
         // 秒钟
         _secondCount                     = ONE_SEC;
-        self.secondView                  = [[ConfigCircleView alloc] initWithFrame:CGRectMake(0, 0, 200, 200)];
+        self.secondView                  = [[RotateAnimationView alloc] initWithFrame:CGRectMake(0, 0, 200, 200)];
         self.secondView.center           = self.view.center;
         self.secondView.duration         = 0.75f;
         self.secondView.fromCircleRadian = 0.f;

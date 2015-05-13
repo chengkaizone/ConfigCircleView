@@ -1,23 +1,23 @@
 //
-//  ConfigCircleView.m
+//  RotateAnimationView.m
 //  Good
 //
 //  Created by YouXianMing on 15/5/12.
 //  Copyright (c) 2015年 YouXianMing. All rights reserved.
 //
 
-#import "ConfigCircleView.h"
+#import "RotateAnimationView.h"
 
 // 动画父类
-#import "CircleAnimationTypes.h"
+#import "RotateAnimationTypes.h"
 
 // 动画子类
-#import "NormalCircleType.h"
-#import "PopCircleType.h"
-#import "EasingCircleType.h"
+#import "NormalRotateType.h"
+#import "PopRotateType.h"
+#import "EasingRotateType.h"
 
 
-@implementation ConfigCircleView
+@implementation RotateAnimationView
 
 - (instancetype)initWithFrame:(CGRect)frame {
     self = [super initWithFrame:frame];
@@ -47,17 +47,17 @@
         // 将动画的实现延时到子类中去执行,策略模式
         if (type == Normal) {
             // 普通动画类型
-            CircleAnimationTypes *animationType = [NormalCircleType new];
+            RotateAnimationTypes *animationType = [NormalRotateType new];
             animationType.targetObject          = self;
             [animationType startAnimation];
         } else if (type == POP) {
             // POP动画类型
-            CircleAnimationTypes *animationType = [PopCircleType new];
+            RotateAnimationTypes *animationType = [PopRotateType new];
             animationType.targetObject          = self;
             [animationType startAnimation];
         } else if (type == Easing) {
             // Easing动画类型
-            CircleAnimationTypes *animationType = [EasingCircleType new];
+            RotateAnimationTypes *animationType = [EasingRotateType new];
             animationType.targetObject          = self;
             [animationType startAnimation];
         }

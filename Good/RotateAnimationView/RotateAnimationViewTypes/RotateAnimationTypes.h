@@ -1,5 +1,5 @@
 //
-//  CircleAnimationTypes.h
+//  RotateAnimationTypes.h
 //  Good
 //
 //  Created by YouXianMing on 15/5/12.
@@ -7,9 +7,9 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "ConfigCircleView.h"
+#import "RotateAnimationView.h"
 
-@interface CircleAnimationTypes : NSObject
+@interface RotateAnimationTypes : NSObject
 
 /**
  *  目标对象

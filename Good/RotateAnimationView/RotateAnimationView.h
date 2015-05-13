@@ -1,5 +1,5 @@
 //
-//  ConfigCircleView.h
+//  RotateAnimationView.h
 //  Good
 //
 //  Created by YouXianMing on 15/5/12.
@@ -17,7 +17,7 @@ typedef enum : NSUInteger {
     Easing,              // Easing动画类型
 } ECircleAnimationType;
 
-@interface ConfigCircleView : UIView
+@interface RotateAnimationView : UIView
 
 
 /**
